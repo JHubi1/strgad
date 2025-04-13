@@ -1,0 +1,39 @@
+name: Feature Request
+description: Request a new feature or enhancement for the library.
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Requirements
+      description: Please check all the following requirements before submitting your feature request.
+      options:
+        - label: I have searched the issues of this repository and believe that this is not a duplicate
+          required: true
+        - label: I have searched the documentation and believe that this is not already covered
+          required: true
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the feature is and what it should do.
+      placeholder: |
+        I would like to see a new feature that allows users to...
+
+        This feature should include the following functionality:
+        - Functionality 1
+        - Functionality 2
+        - Functionality 3
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: References
+      description: Any references to similar features in other libraries or tools, an explanation of a specific algorithm, or any relevant links that can help us understand the feature better.
+      placeholder: |
+        - [Link to similar feature in another library](https://example.com)
+        - [Link to algorithm explanation](https://example.com)
+  - type: checkboxes
+    attributes:
+      label: Contribution
+      description: Would you like to work on this feature yourself?
+      options:
+        - label: I would like to work on this feature myself

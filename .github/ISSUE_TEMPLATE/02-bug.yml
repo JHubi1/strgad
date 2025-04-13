@@ -1,0 +1,58 @@
+name: Bug Report
+description: Report an issue or unexpected behavior in the library.
+labels: ["bug"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Please check all the following requirements before submitting your bug report.
+      options:
+        - label: I have searched the issues of this repository and believe this bug has not been reported before.
+          required: true
+        - label: I have tried to reproduce the issue in the latest version of the library.
+          required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: |
+        When I try to do X, the library does Y instead of Z.
+        This is unexpected behavior because...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Minimal Reproducible Example
+      description: A minimal code snippet that reproduces the issue.
+      render: dart
+      placeholder: |
+        import 'package:strgad/strgad.dart';
+
+        void main() {
+          // your code here
+        }
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+      placeholder: |
+        I expected the library to do Z instead of Y.
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: What actually happened.
+      placeholder: |
+        The library did Y instead of Z.
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Please provide details about your environment (e.g. OS, version, etc).
+      placeholder: |
+        - OS: [e.g. Windows, macOS, Linux]
+        - Library version: [e.g. 1.0.0]
+  - type: checkboxes
+    attributes:
+      label: Contribution
+      description: Would you like to work on this bug yourself?
+      options:
+        - label: I would like to work on this bug myself
