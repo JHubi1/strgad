@@ -1,5 +1,7 @@
 # strgad
 
+[![Pub Version](https://img.shields.io/pub/v/strgad)](https://pub.dev/packages/strgad) [![Pub Points](https://img.shields.io/pub/points/strgad)](https://pub.dev/packages/strgad/score)
+
 A helper library providing various functions to assist with string manipulation and formatting.
 
 These functions include:
