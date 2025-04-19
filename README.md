@@ -18,8 +18,7 @@ void main() {
   String str1 = "kitten";
   String str2 = "sitting";
 
-  int distance = String.levenshteinDistance(str1, str2);
-  print("Levenshtein distance between '$str1' and '$str2' is $distance");
+  print(str1.levenshteinDistance(str2)); // Output: 1
 }
 ```
 

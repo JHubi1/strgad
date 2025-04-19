@@ -1,6 +1,6 @@
 name: strgad
 description: A helper library providing various functions to assist with string manipulation and formatting.
-version: 0.1.0
+version: 0.1.0+1
 repository: https://github.com/JHubi1/strgad
 
 environment:
